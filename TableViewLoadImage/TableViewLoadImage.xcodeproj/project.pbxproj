@@ -15,7 +15,7 @@
 		04745EAD1E51352D004D5EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04745EAB1E51352D004D5EE1 /* LaunchScreen.storyboard */; };
 		04745EB81E51352D004D5EE1 /* TableViewLoadImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745EB71E51352D004D5EE1 /* TableViewLoadImageTests.m */; };
 		04745EC31E51352D004D5EE1 /* TableViewLoadImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745EC21E51352D004D5EE1 /* TableViewLoadImageUITests.m */; };
-		04745ED11E514EE2004D5EE1 /* 12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04745ED01E514EE2004D5EE1 /* 12.jpeg */; };
+		04745ED41E51642E004D5EE1 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745ED31E51642E004D5EE1 /* TestTableViewCell.m */; };
 		F846080FDF04FCC82D12B0B3 /* Pods_TableViewLoadImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA423E28AD74741F37ADA04 /* Pods_TableViewLoadImage.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,8 @@
 		04745EBE1E51352D004D5EE1 /* TableViewLoadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLoadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04745EC21E51352D004D5EE1 /* TableViewLoadImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLoadImageUITests.m; sourceTree = "<group>"; };
 		04745EC41E51352D004D5EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04745ED01E514EE2004D5EE1 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
+		04745ED21E51642E004D5EE1 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		04745ED31E51642E004D5EE1 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		37F7D0B4DDF6984211980ECB /* Pods-TableViewLoadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLoadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLoadImage/Pods-TableViewLoadImage.release.xcconfig"; sourceTree = "<group>"; };
 		6BA423E28AD74741F37ADA04 /* Pods_TableViewLoadImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewLoadImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,7 +111,8 @@
 		04745E9C1E51352D004D5EE1 /* TableViewLoadImage */ = {
 			isa = PBXGroup;
 			children = (
-				04745ED01E514EE2004D5EE1 /* 12.jpeg */,
+				04745ED21E51642E004D5EE1 /* TestTableViewCell.h */,
+				04745ED31E51642E004D5EE1 /* TestTableViewCell.m */,
 				04745EA01E51352D004D5EE1 /* AppDelegate.h */,
 				04745EA11E51352D004D5EE1 /* AppDelegate.m */,
 				04745EA31E51352D004D5EE1 /* ViewController.h */,
@@ -279,7 +281,6 @@
 			files = (
 				04745EAD1E51352D004D5EE1 /* LaunchScreen.storyboard in Resources */,
 				04745EAA1E51352D004D5EE1 /* Assets.xcassets in Resources */,
-				04745ED11E514EE2004D5EE1 /* 12.jpeg in Resources */,
 				04745EA81E51352D004D5EE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04745EA51E51352D004D5EE1 /* ViewController.m in Sources */,
+				04745ED41E51642E004D5EE1 /* TestTableViewCell.m in Sources */,
 				04745EA21E51352D004D5EE1 /* AppDelegate.m in Sources */,
 				04745E9F1E51352D004D5EE1 /* main.m in Sources */,
 			);
