@@ -1,0 +1,6 @@
+framework module Pods_TableViewLoadImage {
+  umbrella header "Pods-TableViewLoadImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
